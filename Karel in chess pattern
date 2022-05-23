@@ -1,4 +1,4 @@
-/* Paste the code here https://stanford.edu/~cpiech/karel/ide.html   it will make a his way in a chess board pattern. */
+/* Paste the code here https://stanford.edu/~cpiech/karel/ide.html   it will make a his way in a chess board pattern in 5X5 maze. */
 
 
 function main(){
