@@ -1,0 +1,46 @@
+/* Paste the code here https://stanford.edu/~cpiech/karel/ide.html   it will make a his way in a chess board pattern. */
+
+
+function main(){
+   
+   chess();
+   move();
+   putBeeper();
+   turnLeftSide();
+   chess();
+   turnRightSide();
+   chess();
+   move();
+   putBeeper();
+   turnLeftSide();
+   chess();
+   turnRightSide();
+   chess();
+   move();
+   putBeeper();  
+}
+
+function chess(){
+   
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move(); 
+}
+
+function turnLeftSide(){ 
+   
+   turnLeft();
+   move();
+   turnLeft();
+   move();
+}
+
+function turnRightSide(){
+   
+   turnRight();
+   move();
+   turnRight();  
+}
+
